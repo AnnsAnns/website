@@ -3,7 +3,6 @@ baseurl = "https://tomger.eu/"
 languageCode = "en-us"
 title = "Blog"
 theme = "spectre-pixel"
-publishDir = "docs"
 
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = ""
