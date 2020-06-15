@@ -2,30 +2,35 @@
     font-family: "PixelCode";
     src: url('../fonts/ONESIZE_.TTF');
 }
+
 @font-face {
     font-family: "Pixel";
     src: url('../fonts/Minecraft-Regular.otf');
     font-style: normal;
     font-weight: normal;
 }
+
 @font-face {
     font-family: "Pixel";
     src: url('../fonts/Minecraft-Bold.otf');
     font-style: normal;
-    font-weight:bold;
+    font-weight: bold;
 }
+
 @font-face {
     font-family: "Pixel";
     src: url('../fonts/Minecraft-Italic.otf');
     font-style: italic;
     font-weight: normal;
 }
+
 @font-face {
     font-family: "Pixel";
     src: url('../fonts/Minecraft-BoldItalic.otf');
     font-style: italic;
     font-weight: bold;
 }
+
 :root {
     --font-family: "Helvetica Neue", sans-serif;
     --code-font-family: Courier, monospace;
@@ -56,6 +61,7 @@
     --color-light-bg: #f2f2f2;
     --profile-src: url("../images/avatar.png");
 }
+
 [data-theme='pixel'] {
     --font-family: "Pixel";
     --code-font-family: "PixelCode";
@@ -86,17 +92,21 @@
     --color-light-bg: #2ce8f5;
     --profile-src: url("../images/pixel.png");
 }
+
 .shadow {
-    box-shadow: .2rem .2rem .5rem rgba(87,85,217,.2);
+    box-shadow: .2rem .2rem .5rem rgba(87, 85, 217, .2);
 }
-.avatar.avatar-profile{
+
+.avatar.avatar-profile {
     height: 150px;
     width: 150px;
 }
+
 #profile {
     background: var(--profile-src);
-    background-size: cover;
+    background-size: contain;
 }
+
 .symbol {
     display: inline-block;
     color: var(--color-gray-light);
@@ -105,17 +115,21 @@
     margin-right: 0.5rem;
     padding: 0.5rem 0;
 }
+
 .symbol:hover {
     text-decoration: underline;
     color: var(--color-accent);
 }
+
 .mt-space {
     margin-top: 6rem!important;
 }
+
 .mx-gap {
     margin-left: 2rem!important;
     margin-right: 2rem!important;
 }
+
 .my-gap {
     margin-top: 2rem!important;
     margin-bottom: 2rem!important;

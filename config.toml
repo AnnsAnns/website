@@ -1,7 +1,7 @@
 # Site settings
 baseurl = "https://tomger.eu/"
 languageCode = "en-us"
-title = "Blog"
+title = "tomGER's Blog"
 theme = "spectre-pixel"
 
 # Enter your tracking code to enable Google Analytics
@@ -11,11 +11,11 @@ googleAnalytics = ""
   name = "tomGER"
   altName = ""
   description = "Describe your website"
-  bio = "Programmer"
+  bio = ""
   enableRSS = true
 
   # Author information in posts
-  aboutAuthor = "I'm a Programmer."
+  aboutAuthor = ""
 
   # Integrate Javascript files or stylesheets by adding the url to the external assets or by
   # linking local files with their path relative to the static folder, e.g. "css/styles.css"

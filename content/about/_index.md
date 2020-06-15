@@ -8,10 +8,7 @@ menu: "main"
 > My major accomplishments are the Kosmos CFW package and multiple other projects that I created with my own team AtlasNX.
 
 ### Development Skills
-I
-
-{{< tag go >}}
-{{< tag python >}}
+I mainly program in Python {{< tag python >}}but I also enjoy Golang {{< tag go >}}.
 
 ### Language Proficiency
 *Based on the "Common European Framework of Reference for Languages"*
