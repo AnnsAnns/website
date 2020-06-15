@@ -1,13 +1,12 @@
 <footer class="container p-centered text-center my-gap">
-  {{ if .Site.Social }}
-    {{ partial "social.html" . }}
-  {{ end }}
+    {{ if .Site.Social }} {{ partial "social.html" . }} {{ end }}
 
-  <small class="text-gray">
+    <small class="text-gray">
   {{ with .Site.Params.copyright }}
     {{ . | markdownify }}
   {{ else }}
-    © Copyright {{ now.Format "2006" }} {{ .Site.Params.name }}
+    © Copyright {{ now.Format "2006" }} {{ .Site.Params.name }}  <br>
+    Based on spectre-pixel by st-wong
   {{ end }}
   </small>
 </footer>
