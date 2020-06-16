@@ -10,7 +10,7 @@ googleAnalytics = ""
 [params]
   name = "tomGER"
   altName = ""
-  description = "Describe your website"
+  description = "This is the adventure of a man called tomGER."
   bio = ""
   enableRSS = true
 
