@@ -32,48 +32,18 @@
 }
 
 :root {
+    /*--font-family: "Pixel";
+    --code-font-family: "PixelCode"; */
     --font-family: "Helvetica Neue", sans-serif;
-    --code-font-family: Courier, monospace;
-    --color-primary: #3f51b5;
-    --color-primary-hover: #303f9f;
-    --color-primary-visit: #5c6bc0;
-    --color-secondary: #c5cae9;
-    --color-secondary-hover: #7986cb;
-    --color-secondary-visit: #e8eaf6;
-    --color-accent: #e91e63;
-    --color-accent-hover: #c2185b;
-    --color-accent-visit: #ec407a;
-    --color-success: #4caf50;
-    --color-success-hover: #388e3c;
-    --color-success-visit: #66bb6a;
-    --color-warning: #ffc107;
-    --color-warning-hover: #ffa000;
-    --color-warning-visit: #ffca28;
-    --color-error: #ff5722;
-    --color-error-hover: #e64a19;
-    --color-error-visit: #ff7043;
-    --color-gray: #bdbdbd;
-    --color-gray-light: #e0e0e0;
-    --color-gray-dark: #757575;
-    --color-dark: #000;
-    --color-dark-bg: #212121;
-    --color-light: #fff;
-    --color-light-bg: #f2f2f2;
-    --profile-src: url("../images/avatar.png");
-}
-
-[data-theme='pixel'] {
-    --font-family: "Pixel";
-    --code-font-family: "PixelCode";
-    --color-primary: #be4a2f;
-    --color-primary-hover: #733e39;
-    --color-primary-visit: #d77643;
+    --color-primary: #53a788;
+    --color-primary-hover: #cbffd8;
+    --color-primary-visit: #53a788;
     --color-secondary: #e4a672;
     --color-secondary-hover: #c28569;
     --color-secondary-visit: #e8b796;
-    --color-accent: #b55088;
-    --color-accent-hover: #68386c;
-    --color-accent-visit: #f6757a;
+    --color-accent: #53a788;
+    --color-accent-hover: #cbffd8;
+    --color-accent-visit: #53a788;
     --color-success: #3e8948;
     --color-success-hover: #265c42;
     --color-success-visit: #63c74d;
@@ -84,13 +54,48 @@
     --color-error-hover: #a22633;
     --color-error-visit: #ff0044;
     --color-gray: #5a6988;
-    --color-gray-light: #3a4466;
+    --color-gray-light: #53a788;
     --color-gray-dark: #8b9bb4;
-    --color-dark: #181425;
-    --color-dark-bg: #262b44;
-    --color-light: #ffffff;
+    --color-dark: #b8b5b9;
+    --color-dark-bg: #53a788;
+    --color-light: #181c28;
     --color-light-bg: #2ce8f5;
+    --profile-src: url("../images/avatar.png");
+}
+
+[data-theme='pixel'] {
+    --font-family: "Helvetica Neue", sans-serif;
+    --code-font-family: Courier, monospace;
+    --color-primary: #5c6bc0;
+    --color-primary-hover: #7986cb;
+    --color-primary-visit: #5c6bc0;
+    --color-secondary: #c5cae9;
+    --color-secondary-hover: #7986cb;
+    --color-secondary-visit: #e8eaf6;
+    --color-accent: #5c6bc0;
+    --color-accent-hover: #7986cb;
+    --color-accent-visit: #5c6bc0;
+    --color-success: #4caf50;
+    --color-success-hover: #388e3c;
+    --color-success-visit: #66bb6a;
+    --color-warning: #ffc107;
+    --color-warning-hover: #ffa000;
+    --color-warning-visit: #ffca28;
+    --color-error: #ff5722;
+    --color-error-hover: #e64a19;
+    --color-error-visit: #ff7043;
+    --color-gray: #bdbdbd;
+    --color-gray-light: #5c6bc0;
+    --color-gray-dark: #757575;
+    --color-dark: #000;
+    --color-dark-bg: #5061c0;
+    --color-light: #fff;
+    --color-light-bg: #f2f2f2;
     --profile-src: url("../images/pixel.png");
+}
+
+.pixel {
+    font-family: "Pixel";
 }
 
 .shadow {
@@ -104,7 +109,7 @@
 
 #profile {
     background: var(--profile-src);
-    background-size: contain;
+    background-size: cover;
 }
 
 .symbol {
