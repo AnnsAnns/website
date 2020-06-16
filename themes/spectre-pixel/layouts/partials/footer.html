@@ -1,6 +1,4 @@
 <footer class="container p-centered text-center my-gap">
-    {{ if .Site.Social }} {{ partial "social.html" . }} {{ end }}
-
     <small class="text-gray">
   {{ with .Site.Params.copyright }}
     {{ . | markdownify }}

@@ -24,7 +24,7 @@ And thus, I decided that I'd play around with Go in the later half of May, which
 
 The first major difference is that everything is a package. You don't execute single files or have one main file. The entire design of Go is extremely modular, even the print() command is in it's own module, however one thing that you never worry about in Python, is at it's strongest in Go, and that is:
 
-## **Types and Type Safety**
+## Types and Type Safety
 
 {{< figure src="https://i.imgur.com/IKMdow1.png" height="40%" width="40%" class="text-center" caption="*Javascript, the most infamous example of type safety*">}}
 
@@ -33,14 +33,14 @@ C/C++ on the other hand has a lot of different type, which allows you to constra
 Go is extremely type-safe by design, as even the type-safety of C/C++ wasn't enough for some certain use-cases. Thus, every addition, subtraction, multiplication, or division between two variables needs to be tightly controlled by you.  
 Coming from Python this was quite confusing at first, not only did I need to worry about declaring my variables but every interaction between variables had to be written in a way that would cause no issues between the different types, which was esp. annoying when I tried to create my own CHIP8 emulator, though I must admit that this extreme type-safety is a good thing in the long run. If you ever manage to send some conversion bug onto your production server, I will be extremely surprised.  
 
-## **OnlyFors.com and Switch Cases**
+## OnlyFors.com and Switch Cases
 
 Since Go has a similar approach to Python's "complexity through simplicity", Go doesn't have any while-loops, instead it uses for-loops for everything, which I honestly found good, the way the implement for-loops, there is nearly no reason to add while-loops. I only wanted to talk about it so I could make the joke in the headline.  
 
 Something that I was missing for a very long time in Python was switch cases, seeing all my C/C++ friends with their amazing switch cases, it was really annoying to not have something like it.  
 Later on, I started using dictionaries as my Python-ish replacement for switch cases, but simple switch cases can make your life so much easier. From what I have heard, Go even has better switch cases than C/C++, which is nice to hear.
 
-## **Go doesn't like Json**
+## Go doesn't like Json
 
 Python has amazing Json support, it's like Json was made for Python's dictionaries. It's so easy to interact with Json that it has become my standard way to save and serve anything I do with Python.  
 However, as I learned when I tried to port my discord bot that interacts with a Nintendo Switch error code API that I heavily based on Python's dictionary format, Go freaking sucks when it comes to Json.  
@@ -48,7 +48,7 @@ However, as I learned when I tried to port my discord bot that interacts with a 
 I'll likely make a JSON tutorial for Go in the future but the TL;DR of it is that the design of recursive json datasets based on Python dictionaries with a lot of sub-dictionaries doesn't play well with Go. A simple five line code would have turned into a huge function inside of Go just to parse anything from that API.  
 Luckily, I'm not the only person that realized how annoying Json parsing is in Go and after some digging and testing, I found [GJson](https://github.com/tidwall/gjson), which makes *reading* Json so much easier. Modifying Json is still another topic but I tried to ignore that for now.
 
-## **Python's infamous Global Interpreter Lock and Discord**
+## Python's infamous Global Interpreter Lock and Discord
 
 {{< figure src="https://i.imgur.com/QElXAXw.jpg" height="40%" width="40%" class="text-center">}}
 
