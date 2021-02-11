@@ -9,7 +9,7 @@ tags = [
 ]
 +++
 
-Guess what, I still exist. In the typical developer fashion I wrote a single blog post and then abandoned the whole site for nearly a year. In that time I *mostly* mastered Golang and did a lot of other things that I really want to talk about sooner or later. For now I'm going to try to write about my journey with microcontrollers in smaller most common blog posts instead.
+Guess what, I still exist. In the typical developer fashion I wrote a single blog post and then abandoned the whole site for nearly a year. In that time I *mostly* mastered Golang and did a lot of other things that I really want to talk about sooner or later. For now I'm going to try to write about my journey with microcontrollers in smaller more common blog posts instead.
 
 Anyways, recently I bought a Risc-V development board, the Sipeed Longan Nano to be exact. Risc-V has always been something I just wanted to work on sooner or later, it's one of the few CPU architectures that fascinate me and I strongly believe that sooner or later it'll run most of our devices. The open source and modulare nature of it makes it a wonderful contender for IoT and anything that needs to be fast, cheap and small.
 
