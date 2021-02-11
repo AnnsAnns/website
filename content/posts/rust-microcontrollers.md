@@ -11,7 +11,7 @@ tags = [
 
 Guess what, I still exist. In the typical developer fashion I wrote a single blog post and then abandoned the whole site for nearly a year. In that time I *mostly* mastered Golang and did a lot of other things that I really want to talk about sooner or later. For now I'm going to try to write about my journey with microcontrollers in smaller more common blog posts instead.
 
-Anyways, recently I bought a Risc-V development board, the Sipeed Longan Nano to be exact. Risc-V has always been something I just wanted to work on sooner or later, it's one of the few CPU architectures that fascinate me and I strongly believe that sooner or later it'll run most of our devices. The open source and modulare nature of it makes it a wonderful contender for IoT and anything that needs to be fast, cheap and small.
+Anyways, recently I bought a Risc-V development board, the Sipeed Longan Nano to be exact. Risc-V has always been something I just wanted to work on sooner or later, it's one of the few CPU architectures that fascinate me and I strongly believe that sooner or later it'll run most of our devices. The open source and modular nature of it makes it a wonderful contender for IoT and anything that needs to be fast, cheap and small.
 
 {{< figure src="https://cdn.discordapp.com/attachments/677603781554470912/809436168528855100/IMG_20210211_154847930.jpg" height="50%" width="50%" class="text-center" caption="*The Longan Nano, Raspberry Pi Pico and a pen for scale.*">}}
 
