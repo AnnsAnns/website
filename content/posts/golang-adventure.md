@@ -1,6 +1,6 @@
 +++
 author = "tomGER"
-title = "Go Adventures #1: Coming from Python to Go"
+title = "Coming from Python to Go"
 date = "2020-06-15"
 description = "Why would you want to learn Go, what are the differences coming from Python and more."
 tags = [
