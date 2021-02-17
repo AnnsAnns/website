@@ -4,7 +4,7 @@ menu: "main"
 ---
 
 ### About Me
-I'm tomGER, a developer from German, located within the European Union. I dabble in nearly all programming fields in my freetime, though the backend is my forte. I'm a strong FOSS advocate and publish most of my work on [Github](https://www.github.com/tumger).
+I'm tomGER, a developer from Germany, located within the European Union. I dabble in nearly all programming fields in my freetime, though the backend is my forte. I'm a strong FOSS advocate and publish most of my work on [Github](https://www.github.com/tumger).
 
 Besides programming, I highly enjoy anything space related and a bit of video games here and there.
 
