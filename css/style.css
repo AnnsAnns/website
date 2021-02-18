@@ -1,6 +1,7 @@
 @font-face {
     font-family: "PixelCode";
     src: url('../fonts/ONESIZE_.TTF');
+    font-display: swap;
 }
 
 @font-face {
@@ -8,6 +9,7 @@
     src: url('../fonts/Minecraft-Regular.otf');
     font-style: normal;
     font-weight: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -15,6 +17,7 @@
     src: url('../fonts/Minecraft-Bold.otf');
     font-style: normal;
     font-weight: bold;
+    font-display: swap;
 }
 
 @font-face {
@@ -22,6 +25,7 @@
     src: url('../fonts/Minecraft-Italic.otf');
     font-style: italic;
     font-weight: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -29,6 +33,7 @@
     src: url('../fonts/Minecraft-BoldItalic.otf');
     font-style: italic;
     font-weight: bold;
+    font-display: swap;
 }
 
 :root {
