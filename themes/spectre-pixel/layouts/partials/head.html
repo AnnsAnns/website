@@ -9,10 +9,10 @@
   <title>{{ .Title }}{{ if not .IsHome }} &middot; {{ .Site.Title }}{{ end }}</title>
 
   <link rel="shortcut icon" href="{{ "images/favicon.ico" | absURL }}">
-  <link rel="stylesheet" href="{{ "css/spectre.min.css" | absURL }}">
-  <link rel="stylesheet" href="{{ "css/style.css" | absURL }}">
-  <link rel="stylesheet" href="{{ "css/highlight.css" | absURL }}">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+  <link rel="stylesheet" href="{{ "css/spectre.min.css" | absURL }}" async>
+  <link rel="stylesheet" href="{{ "css/style.css" | absURL }}" rel="preload" async>
+  <link rel="stylesheet" href="{{ "css/highlight.css" | absURL }}" async>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" defer>
   {{ range .Site.Params.customCSS }}
     <link rel="stylesheet" href="{{ . | absURL }}">
   {{ end }}
