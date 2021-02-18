@@ -4,7 +4,6 @@
   </a>
   <div class="my-2 py-2">
     <h3>{{ .Site.Params.name }} {{ if .Site.Params.altName }}<span class="text-clip">[ {{ .Site.Params.altName }} ]</span>{{ end }}</h3>
-    <h5 class="text-gray text-italic">{{ .Site.Params.bio | markdownify }}</h5>
     {{ if .Site.Social }} {{ partial "social.html" . }} {{ end }}
   </div>
 </header>
