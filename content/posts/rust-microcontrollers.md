@@ -13,7 +13,7 @@ Guess what, I still exist. In the typical developer fashion I wrote a single blo
 
 Anyways, recently I bought a Risc-V development board, the Sipeed Longan Nano to be exact. Risc-V has always been something I just wanted to work on sooner or later, it's one of the few CPU architectures that fascinate me and I strongly believe that sooner or later it'll run most of our devices. The open source and modular nature of it makes it a wonderful contender for IoT and anything that needs to be fast, cheap and small.
 
-{{< figure src="https://cdn.discordapp.com/attachments/677603781554470912/809436168528855100/IMG_20210211_154847930.jpg" height="50%" width="50%" class="text-center" caption="*The Longan Nano, Raspberry Pi Pico and a pen for scale.*">}}
+{{< figure src="https://cdn.discordapp.com/attachments/677603781554470912/809436168528855100/IMG_20210211_154847930.jpg" alt="*The Longan Nano, Raspberry Pi Pico and a pen for scale.*" height="50%" width="50%" class="text-center" caption="*The Longan Nano, Raspberry Pi Pico and a pen for scale.*">}}
 
 The Longan Nano in itself is actually quite amazing for the price. It offers 128 KB of Flash, 32 KB of SRAM and a lot of different peripherals while running at a *blazing fast* 32.768KHz [Low Spec Mode] and 8MHz at it's highest speed ;) Yes, those specs aren't that impressive compared to the Pico given that both share the same pricetag but the Longan Nano also comes with a MicroSD reader, USB-C and a 160x80 IPS RGB LCD which I'd call quite the package for it's price of only 5€.
 
@@ -27,7 +27,7 @@ Anyways, 1 + 1 = 2 and so I decided to try to use Rust for the microcontroller w
 Before writing about many of the problems, I gotta admit something. My setup is really really cursed when it comes to such stuff.
 I'm currently running Windows 10 Pro on my main machine with 99.9% of all development related stuff running inside a WSL2 Arch instance. For those that are familiar with the Windows Subsystem for Linux stuff, Arch actually isn't one of the officially supported systems for it. My Arch WSL only exists and works because of the amazing work and dedication by Arch fans. If you also dedicate your existence to sharing the word of our lord and saviour Arch, I'd recommend this: https://github.com/yuk7/ArchWSL
 
-{{< figure src="https://external-preview.redd.it/N4eyMIDOoK93PZthrhaSTO8dSawi3nZTypJD73pYa10.png?auto=webp&s=db3215d5c1a58ffdacbd67a0a5f71bb3025f638d" height="50%" width="50%" class="text-center" caption="*btw I use Arch*">}}
+{{< figure src="https://external-preview.redd.it/N4eyMIDOoK93PZthrhaSTO8dSawi3nZTypJD73pYa10.png?auto=webp&s=db3215d5c1a58ffdacbd67a0a5f71bb3025f638d" height="50%" width="50%" class="text-center" alt="*btw I use Arch*" caption="*btw I use Arch*">}}
 
 It honestly works really well and after having Arch as my main OS for quite some time, I really can't live without the AUR and rolling releases. So far I haven't experienced any major issues (With some exceptions for WSL scripts that were meant for debian based systems).
 
