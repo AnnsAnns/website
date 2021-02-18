@@ -10,9 +10,9 @@ googleAnalytics = ""
 [params]
   name = "tomGER"
   altName = ""
-  description = "This is the adventure of a man called tomGER."
+  description = "Interesting stories about programming languages, libraries, tools and much more."
   bio = ""
-  enableRSS = true
+  enableRSS = false
 
   # Author information in posts
   aboutAuthor = ""
