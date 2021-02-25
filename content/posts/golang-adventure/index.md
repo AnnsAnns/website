@@ -7,6 +7,7 @@ tags = [
     "go",
     "python"
 ]
+images = ["gopher.jpeg"]
 +++
 
 {{< figure src="gopher.jpeg" alt="Gophers sitting" height="80%" width="80%" class="text-center">}}

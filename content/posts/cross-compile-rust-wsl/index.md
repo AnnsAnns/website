@@ -7,6 +7,7 @@ tags = [
     "rust",
     "short"
 ]
+images = ["logo.png"]
 +++
 
 {{< figure src="logo.png" alt="🦀🦀🦀" height="50%" width="50%" class="text-center">}}
