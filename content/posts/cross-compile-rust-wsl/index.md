@@ -1,6 +1,6 @@
 +++
 author = "tomGER"
-title = "Short: How to cross-compile Rust from WSL Linux to Windows"
+title = "How to cross-compile Rust from WSL Linux to Windows"
 date = "2021-02-25"
 description = "A small blog post showcasing easy ways to cross-compile Rust from WSL Linux (Arch) to Windows"
 tags = [
