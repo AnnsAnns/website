@@ -79,3 +79,5 @@ Rust is awesome, praise Rust.
 In all seriousness though, such excellent tooling is beyond expectable for a language that is still so young and new. I hope I managed to keep this blog post relatively short and thank you for taking the time out of your day just to read it.
 
 If you have any questions (or want to follow me on social media), feel free to visit my [Twitter](https://www.twitter.com/_tomGER).
+
+I also made some major changes to my blog, majorly increasing speed, SEO, accessibility and more. If you noticed anything breaking, I'd be happy to fix it.
