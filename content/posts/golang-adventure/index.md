@@ -9,7 +9,7 @@ tags = [
 ]
 +++
 
-{{< figure src="https://i.imgur.com/5NDraTA.jpg" alt="Gophers sitting" height="80%" width="80%" class="text-center">}}
+{{< figure src="gopher.jpeg" alt="Gophers sitting" height="80%" width="80%" class="text-center">}}
 
 In this little mini-series of blog posts I'm going to showcase the problems I faced learning Go and the cool tricks and tips I accumulated while trying to solve them. In this first blog post, I'm going to give a small introduction into the world of Go from a Python developers perspective, which means that some general knowledge about Python programming is required here.  
 The next blog posts are going to be purely focused on problems inside of Go and are thus for people that are already familiar with Go.
@@ -26,7 +26,7 @@ The first major difference is that everything is a package. You don't execute si
 
 ## Types and Type Safety
 
-{{< figure src="https://i.imgur.com/IKMdow1.png" alt="Funny meme about type safety" height="40%" width="40%" class="text-center" caption="*Javascript, the most infamous example of type safety*">}}
+{{< figure src="memejs.png" alt="Funny meme about type safety" height="40%" width="40%" class="text-center" caption="*Javascript, the most infamous example of type safety*">}}
 
 Python is such a blessing when it comes to easy variable declarations, as a programmer you normally only have 2 different types, either your variable is a string or an integer and you can easily convert between them through the str() or int() functions. [There are also dictionaries and stuff, but I'm purely talking about the int-types and string-types]   
 C/C++ on the other hand has a lot of different type, which allows you to constrain the memory footprint of your program while also causing major type-safety. Well, now think of the type-safety of C/C++ and double it.  
@@ -50,7 +50,7 @@ Luckily, I'm not the only person that realized how annoying Json parsing is in G
 
 ## Python's infamous Global Interpreter Lock and Discord
 
-{{< figure src="https://i.imgur.com/QElXAXw.jpg" alt="The infamous GIL of Python" height="40%" width="40%" class="text-center">}}
+{{< figure src="memegil.jpg" alt="The infamous GIL of Python" height="40%" width="40%" class="text-center">}}
 
 Something that some people might find controversial is that I find discord.py extremely annoying to work with. This might come from the fact that I just dislike how async or threaded Python works but it might also be that I just don't like the way it was built. Either way, even though I have created or taken part in the creation of a lot of bots, including errBot, Robocop, Komet and a lot more and even use discord.py on some subreddits to provide moderators easy access to data, I never became friends with discord.py.
 
