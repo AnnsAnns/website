@@ -49,3 +49,7 @@ googleAnalytics = ""
 
 [taxonomies]
   tag = "tags"
+
+[markup]
+  [markup.highlight]
+    style = "dracula"
