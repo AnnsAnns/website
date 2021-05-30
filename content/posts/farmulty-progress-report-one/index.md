@@ -1,7 +1,7 @@
 +++
 author = "tomGER"
 title = "Farmulty - Progress Report #1"
-date = "2021-05-31"
+date = "2021-05-30"
 description = "The first progress report about my Farming Gaming Farmulty"
 tags = [
     "progress-report",
@@ -9,6 +9,7 @@ tags = [
     "godot"
 ]
 images = ["header.png"]
+draft = true
 +++
 
 {{< figure src="header.png" alt="Farmulty logo" height="70%" width="70%" class="text-center">}}
@@ -79,6 +80,12 @@ Time is now tracked properly, aside from that, there are now also days that are 
 All SFX / Music now goes through a unified bus in order to easily change global volumes and so on. This would also allow me to add effects to sounds / music if the need ever arises to do that. Aside from that, there is now support for hourly music.
 
 If you want to listen to one of the banger songs included by Dezphos, visit: https://youtu.be/YpdjDyiG5zE
+
+#### Inventory Overhaul
+
+{{< figure src="inventory.png" alt="GIF showcasing inventory" height="90%" width="90%" class="text-center" caption="*New Inventory vs Old Inventory*">}}
+
+I drastically improved the look of the inventory while implementing support for saving/load, though my twitter followers might have already known that ;)
 
 #### New Crop, Cabbage
 
