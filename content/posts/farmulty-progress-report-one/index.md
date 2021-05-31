@@ -23,7 +23,7 @@ So without further ado, let us look into the progress I have made since the last
 
 ## Saving and Loading
 
-{{< figure src="saving.gif" alt="GIF showcasing saving a game" height="70%" width="70%" class="text-center">}}
+{{< video src="saving.webm" alt="GIF showcasing saving a game" height="70%" width="70%" class="text-center" loop="true" autoplay="true">}}
 
 Saving and Loading a game is surprisingly complicated and hard to implement. The process of serializing and deserializing all the required data requires quite a lot of planning and as such this feature was one that I always tried to shove to the side but after nearly one month saving and loading is fully working, albeit I must admit that there are still some minor bugs when loading games but those will only require some minor changes to fix :)
 
@@ -31,7 +31,7 @@ This is by far the most important and complex feature I implemented so far but g
 
 ## Redesign Shovel Logic
 
-{{< figure src="shovel.gif" alt="GIF showcasing shovel" height="70%" width="70%" class="text-center">}}
+{{< video src="shovel.webm" alt="GIF showcasing shovel" height="70%" width="70%" class="text-center" loop="true" autoplay="true">}}
 
 One of the worst offenders of rushed code was the shovel logic, there were many weird bugs and rushed lines in the code and as such I felt like the shovel was extremely inconsistent and unenjoyable to use. The new shovel logic now follows a very specific algorithm (which is even showcased to the user through a grid box) and improved the previous code drastically by fixing many hacky solutions such as the way it spawned areas that the character can plant in. Previously the area would always be spawned for one frame before the system picked up on it and checked whether it was properly placed. Not only did that look ugly but it also confused players.
 
@@ -39,13 +39,13 @@ The new system now clearly indicates which spaces the shovel can be used on and 
 
 ## Redesign Main Menu
 
-{{< figure src="mainmenu.gif" alt="GIF showcasing main menu" height="90%" width="90%" class="text-center" caption="*Old Main Menu vs New Main Menu*">}}
+{{< video src="mainmenu.webm" alt="GIF showcasing main menu" height="90%" width="90%" class="text-center" caption="*Old Main Menu vs New Main Menu*" loop="true" autoplay="true">}}
 
 The previous main menu was the literal text book example of an main menu that you would find in alpha releases. I felt like this didn't do the game justice and as such drastically improved it. Adding nicer buttons, nicer font and generally making it look more presentable.
 
 ## Player Customization and Layered Sprites
 
-{{< figure src="hair.gif" alt="GIF showcasing customization" height="70%" width="70%" class="text-center">}}
+{{< video src="hair.webm" alt="GIF showcasing customization" height="70%" width="70%" loop="true" class="text-center" loop="true" autoplay="true">}}
 
 This feature is one of the features that look so easy to implement and barely change anything but actually require extremely complicated state handling in order to layer sprites together into one single character. Before implementing this, the character sprite was a single AnimatedSprite node, which is basically just like one single video player that handles everything for you. However, this also means that I can't simply customize something like the hair without adding hair, body and hands together for each single option beforehand, which would mean thousands of different sprites.
 
@@ -55,7 +55,7 @@ And all that just so you can customize yourself and feel more immersed.
 
 ## Watering Can
 
-{{< figure src="watering.gif" alt="GIF showcasing watering can" height="70%" width="70%" class="text-center">}}
+{{< video src="watering.webm" alt="GIF showcasing watering can" height="70%" width="70%" class="text-center" loop="true" autoplay="true">}}
 
 Something that is standard in every farming game is that you have to water your crops in order to add that extra *r e a l i s m*. As such I have recently started working on the watering can. It still has a lot of things that are left to do but the basic system works perfectly.
 
