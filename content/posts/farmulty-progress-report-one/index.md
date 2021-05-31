@@ -1,7 +1,7 @@
 +++
 author = "tomGER"
 title = "Farmulty - Progress Report #1"
-date = "2021-05-30"
+date = "2021-05-31"
 description = "The first progress report about my Farming Gaming Farmulty"
 tags = [
     "progress-report",
@@ -9,7 +9,6 @@ tags = [
     "godot"
 ]
 images = ["header.png"]
-draft = true
 +++
 
 {{< figure src="header.png" alt="Farmulty logo" height="70%" width="70%" class="text-center">}}
