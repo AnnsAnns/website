@@ -31,3 +31,14 @@ For many programming is something they pick up at a very young age or because th
 > _Since I was a child I always played Music and soon I started to create my own music. Music gives me energy in every scenario in my life. It really clicked with videogame music for me because you will always have some memories attached to that song, similar like movie scores, but videogames can achieve that even more because you actually control the scene. After I tried to compose my first original song for a game demo by my good friend Christian Wasser (SambZockt) I got really hooked. I made a lot of songs because it just made me feel good and it was a lot of fun. Since that moment I never really stopped making music! Haha._ \
 _The good thing about Music is that it can be so different and a completely different experience with every song. I’m doing a lot of genres and it is a lot of fun experimenting with Music. It feels like the journey is never done!__
 
+Ironically it was also back then that I met Ben Zimmermann. Sadly the original project by Christian Wasser had to be cancelled due to copyright issues but thanks to that he moved on to Blobcat, a ChuChu Rocket-like game. This is where Ben Zimmermann created many bangers that are still stuck in my head to this day. If you are curious, you can check out the playlist [HERE](https://www.youtube.com/watch?v=TofTwcGlFbE&list=OLAK5uy_kUkBpEu-XsrZLiht7nL8cgx6ORoIXZZuo).
+
+{{< youtube d52lY-NRc9Y >}}
+
+{{< figure src="" alt="The Kitchen theme, one of over 30 different songs in the OST playlist" height="70%" width="70%" class="text-center">}}
+
+That made me realize something though, how do you actually come up with so many songs in an age where many established singers and song writers barely publish a few singles per year. So how does one actually manage to come up with music. As an established programmer I usually just copy and paste code from Stackoverflow so something like original work sounds like a huge PITA. Given the opportunity to ask such a question, I asked Ben how he comes up with music when he works on a game.
+
+> _The most important part for me are the visuals and the gameplay. Colors and scenery are playing a big role in my understanding of what the scene needs. If possible I’ll always ask to play the scene myself to kinda get a feeling for the rhythm and pacing so I can later make a suiting song. Most of the times I start with creating a chord loop and then adding a melody. The chords should set the tone so the melody can focus on being catchy._
+
+Starting with a barebone core loop and then slowly adding more and more features? That would sound quite familar to me, however, luckily it doesn't given that I usually quit before I get to that stage 😎
