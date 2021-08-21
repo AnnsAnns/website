@@ -2,7 +2,7 @@
 author = "tomGER"
 title = "The Art of Video Game Music - Featuring Ben Zimmermann"
 date = "2021-08-21"
-description = "Diving into one of the game development pillars together with an real musician"
+description = "Diving into one of the game development pillars together with a real musician"
 tags = [
     "music",
     "videogames"
@@ -54,7 +54,7 @@ Aside from that, sometimes there are some employers that give little to no freed
 
 Another thing that I have always wondered about is easter eggs and bugs. Whenever I play a game and notice something that feels out of place in the game world, I often wonder how such bugs could have happened, sometimes even going as far as googling for answers to the causes of weird bugs in video games. 
 
-Games are art, every single part of them is designed and planned by some human in order to create an unforgettable experience and even little things such as loading screens have hundreds of hours of work put into them in some games, so I highly enjoy dissecting the artist's vision for a game.
+Games are art, every single part of them is designed and planned by some human in order to create a unforgettable experience and even little things such as loading screens have hundreds of hours of work put into them in some games, so I highly enjoy dissecting the artist's vision for a game.
 
 As such, it is only natural that I wondered if Ben Zimmermann would do something similar when he finds some piece of music that just stands out.
 
