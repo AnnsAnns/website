@@ -1,12 +1,11 @@
 +++
 author = "tomGER"
 title = "The Art of Video Game Music - Featuring Ben Zimmermann"
-draft = true
-date = "2021-08-20"
+date = "2021-08-21"
 description = "Diving into one of the game development pillars together with an real musician"
 tags = [
-    "rust",
-    "embedded-systems"
+    "music",
+    "videogames"
 ]
 images = ["logoben.png"]
 +++
