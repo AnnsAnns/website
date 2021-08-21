@@ -1,7 +1,8 @@
 +++
 author = "tomGER"
 title = "The Art of Video Game Music - Featuring Ben Zimmermann"
-date = "2021-08-13"
+draft = true
+date = "2021-08-20"
 description = "Diving into one of the game development pillars together with an real musician"
 tags = [
     "rust",
@@ -41,4 +42,21 @@ That made me realize something though, how do you actually come up with so many 
 
 > _The most important part for me are the visuals and the gameplay. Colors and scenery are playing a big role in my understanding of what the scene needs. If possible I’ll always ask to play the scene myself to kinda get a feeling for the rhythm and pacing so I can later make a suiting song. Most of the times I start with creating a chord loop and then adding a melody. The chords should set the tone so the melody can focus on being catchy._
 
-Starting with a barebone core loop and then slowly adding more and more features? That would sound quite familar to me, however, luckily it doesn't given that I usually quit before I get to that stage 😎
+Starting with a barebone core loop and then slowly adding more and more features? That would sound quite familar to me, however, luckily it doesn't, given that I usually quit before I get to that stage 😎 Ben Zimmermann once again demonstrates the importance of a great foundation on which to build your projects, you can't start with the windows when there are no walls to put them into.
+
+However, that sparks another debate, how much planning is too much planning? Sometimes I overdo my planning and up with a goal that I could never reach.
+
+Aside from that, sometimes there are some employers that give little to no freedom when it comes to such stuff which lead me to wonder, does the same apply to music?
+
+> _It kind of depends on the situation. I like guidelines a lot because they are challenging my creativity! But it also happens that I have a completely different vision for the scene and it’s always a bit disappointing if it doesn’t get approval. In the end I would say that I like a mix of both._
+
+{{< youtube CAdh7wAR5PA >}}
+{{< figure src="" alt="His most popular cover with over 400,000 views on YouTube" height="70%" width="70%" class="text-center">}}
+
+Another thing that I have always wondered about is easter eggs and bugs. Whenever I play a game and notice something that feels out of place in the game world I often wonder how such bugs could have happened, sometimes even going as far as googling for answers to the causes of weird bugs in video games. 
+
+Games are art, every single part of them is designed and planned by some human in order to create an unforgettable experience and even little things such as loading screens have hundreds of hours of work put into them in some games so I highly enjoy dissecting the artists vision for a game.
+
+As such it is only natural that I wondered if Ben Zimmermann would do something similar when he finds some piece of music that just stands out.
+
+> _I always try not to do that. I’d rather play the game and always carefully listen to the music. The music is made for this scene so the best way to experience it is by doing what you’re supposed to do in the game. But I always love to examine the music after I finish the game and I always find some interesting songwriting and production tricks which are most probably be copied by me later on :D_
