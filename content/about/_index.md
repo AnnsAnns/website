@@ -60,8 +60,8 @@ Note: A full list of of notable projects I contributed to can be found on my Git
 
 ### Contact
 
+*Do not contact me for your crXpto, nXt, blXckcXain or other scam startup. I won't reply.*
 I'm on a multitude of platforms and am happy to answer any questions. The easiest way to contact me is through the following ways:
 
 * Email: blog@tomger.eu
 * Twitter: @_tomGER
-* Discord: tomGER#7462
