@@ -27,15 +27,14 @@ Besides programming, I highly enjoy anything space related and a bit of video ga
 ##### Programming Languages
 
 I have experience in writing code in the following programming languages (most experienced to least experienced):
-* Golang
 * Python
 * Rust
-* Visual Basic
+* Typescript
 * C
+* ASM
+* Javascript
 * GDScript
 * C++
-* Typescript
-* Javascript
 * Lua
 * Pascal
 
@@ -61,6 +60,7 @@ Note: A full list of of notable projects I contributed to can be found on my Git
 ### Contact
 
 *Do not contact me for your crXpto, nXt, blXckcXain or other scam startup. I won't reply.*
+
 I'm on a multitude of platforms and am happy to answer any questions. The easiest way to contact me is through the following ways:
 
 * Email: blog@tomger.eu
