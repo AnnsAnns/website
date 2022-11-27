@@ -44,8 +44,8 @@ googleAnalytics = ""
 # Add additional social link entries underneath
 [social]
 	email    = "blog@tomger.eu"
+  mastodon = "https://norden.social/@tomGER"
 	github   = "https://www.github.com/tumger"
-	twitter  = "https://www.twitter.com/_tomGER"
 
 [taxonomies]
   tag = "tags"

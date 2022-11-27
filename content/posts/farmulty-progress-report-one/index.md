@@ -1,6 +1,6 @@
 +++
 author = "tomGER"
-title = "Farmulty - Progress Report #1"
+title = "Farmulty - Progress Report"
 date = "2021-05-31"
 description = "The first progress report about my Farming Gaming Farmulty"
 tags = [
