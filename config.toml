@@ -1,14 +1,14 @@
 # Site settings
-baseurl = "https://tomger.eu/"
+baseurl = "https://oldblog.tomger.eu/"
 languageCode = "en-us"
-title = "tomGER's Blog"
+title = "OLD - tomGER's Blog"
 theme = "spectre-pixel"
 
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = ""
 
 [params]
-  name = "tomGER"
+  name = "tomGER - THIS BLOG IS OUTDATED"
   altName = ""
   description = "Interesting stories about programming languages, libraries, tools and much more."
   bio = ""
